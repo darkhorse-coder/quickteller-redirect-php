@@ -25,7 +25,7 @@ if($sandbox==true){
 
 }
 
-$redirectUrl = 'https://plugins-development-2.ordering.co/deb/quickteller/callback.php';
+$redirectUrl = 'https://redirect-server/quickteller/callback.php';
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
