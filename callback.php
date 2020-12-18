@@ -1,9 +1,8 @@
 <?php
-//$project='deb';
-//$key='tewkhHcbUikR89EIXQk4c3O3cN25J8oaAv_j3FOyhf-ayD97M8_kqMOC1LqbqlOKD';
+
 $project='eatngo-africa';
-$key='fSm2Cim_bzGz2qmpPNNMwqW4RyhjrhgECuqA2FSwLE482MUWo-VAhJsg-N1JrwbyT';
-$db_connection = pg_connect("host='localhost' dbname='plugin_deb' user='postgres' password='HappyOrdering2017'");
+$key='payment_server_key';
+$db_connection = pg_connect("host='localhost' dbname='db_name' user='db_username' password='db_password'");
 
 //echo $_REQUEST['resp'];
 if($_REQUEST['resp']=='00')
@@ -35,7 +34,7 @@ if($_REQUEST['resp']=='00')
 				}
 				
 				$postfields1 = array(
-					"business_id" => $business_id,//$json->params->discount_price,
+					"business_id" => $business_id,
 					"paymethod_id" => $paymethod_id,
 					"customer_id" => $customer_id,
 					"delivery_type" => $delivery_type,
