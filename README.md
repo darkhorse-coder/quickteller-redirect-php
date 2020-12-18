@@ -1,3 +1,4 @@
 # quickteller-redirect-php
 Interswitch Payment gateway
-Customized for ordering special project
+
+Update your info to config, needed to custom for your project, It's only a sample
